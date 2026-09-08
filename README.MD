@@ -16,10 +16,10 @@ Uma introdução ao Databricks, ao conceito de lakehouse e à arquitetura medalh
 
 ## Como foi produzido
 
-- nome e roteiro estruturados com auxílio de IA generativa;
+- nome, estrutura e revisão do roteiro realizados com o Codex;
 - informações técnicas conferidas na documentação oficial do Databricks;
-- capa criada por um modelo de geração de imagens;
-- narração produzida por síntese de voz;
+- capa criada pelo gerador de imagens integrado ao Codex;
+- narração produzida com Edge TTS e a voz masculina brasileira `pt-BR-AntonioNeural`;
 - conteúdo revisado para usar linguagem acessível a iniciantes.
 
 ## Estrutura do projeto
@@ -28,15 +28,15 @@ Uma introdução ao Databricks, ao conceito de lakehouse e à arquitetura medalh
 - `src/roteiro.md`: roteiro final do episódio;
 - `src/roteiro-fonetico.md`: versão adaptada exclusivamente para síntese de voz;
 - `src/prompts/chatgpt.md`: prompts de título e roteiro;
-- `src/prompts/midjourney.md`: prompt utilizado para criar a capa;
+- `src/prompts/imagem.md`: prompt utilizado para criar a capa;
 - `src/prompts/narracao.md`: instruções da síntese de voz;
 - `output/podcast.mp3`: episódio final narrado por voz sintética masculina.
 
 ## Tecnologias utilizadas
 
-- IA generativa de texto para planejamento e roteiro;
-- IA generativa de imagem para a capa;
-- síntese de voz para a narração;
+- Codex para planejamento, redação, revisão e organização do projeto;
+- gerador de imagens integrado ao Codex para a capa;
+- Edge TTS com a voz `pt-BR-AntonioNeural` para a narração;
 - Git e GitHub para versionamento e publicação.
 
 ## Contorno de uma limitação da síntese de voz
@@ -61,14 +61,6 @@ conteúdo destinado à leitura. As substituições utilizadas estão documentada
 - [Arquitetura medalhão](https://docs.databricks.com/aws/en/lakehouse/medallion)
 - [Desenvolvimento em notebooks do Databricks](https://docs.databricks.com/aws/en/notebooks/notebooks-code)
 
-## Aviso
-
-Este conteúdo é introdutório e foi produzido com apoio de inteligência artificial, seguido de curadoria humana.
-
----
-
-Projeto desenvolvido para fins educacionais durante a formação da DIO.
-
 ## Projeto-base
 
 Este trabalho foi desenvolvido a partir do repositório
@@ -76,3 +68,12 @@ Este trabalho foi desenvolvido a partir do repositório
 de Felipe Aguiar. A estrutura foi disponibilizada como referência educacional pela
 DIO. Capa, tema, roteiro, prompts e áudio deste projeto foram substituídos por
 conteúdo autoral do DataCast.
+
+## Aviso
+
+Este conteúdo é introdutório, foi produzido com apoio de inteligência artificial e
+passou por curadoria humana.
+
+---
+
+Projeto desenvolvido para fins educacionais durante a formação da DIO.
