@@ -6,7 +6,7 @@ Olá! Este é o DataCast.
 
 No episódio de hoje, vamos entender o que é Databricks e conhecer três ideias que aparecem logo no início dos estudos: lakehouse, arquitetura medalhão e notebook.
 
-Databricks é uma plataforma de dados e inteligência artificial construída sobre o Apache Spark. Ela reúne recursos para importar, processar, analisar e governar dados em um mesmo ambiente.
+Databricks é uma plataforma unificada de dados e inteligência artificial baseada na arquitetura lakehouse. Ela combina tecnologias como Apache Spark, para processamento, e Delta Lake, para armazenamento confiável de tabelas, além de recursos para importar, analisar e governar dados em um mesmo ambiente.
 
 O primeiro conceito importante é o lakehouse. O nome combina data lake e data warehouse. Um data lake é usado para armazenar grandes volumes de dados em diferentes formatos. Já um data warehouse organiza dados para consultas, indicadores e relatórios. A arquitetura lakehouse procura reunir as vantagens dessas duas abordagens, reduzindo a necessidade de manter cópias separadas dos mesmos dados.
 
@@ -26,3 +26,4 @@ Este foi o DataCast. Até o próximo episódio.
 
 - [O que é um data lakehouse? - Databricks](https://docs.databricks.com/aws/en/lakehouse/)
 - [O que é a arquitetura medalhão? - Databricks](https://docs.databricks.com/aws/en/lakehouse/medallion)
+- [Desenvolvimento em notebooks do Databricks](https://docs.databricks.com/aws/en/notebooks/notebooks-code)

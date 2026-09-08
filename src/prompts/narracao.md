@@ -12,6 +12,7 @@ Use as seguintes aproximações fonéticas durante a síntese, sem ler esta list
 - data lake: "dêita lêique";
 - data warehouse: "dêita uér-ráus";
 - Apache Spark: "apáchi ispárque";
+- Delta Lake: "délta lêique";
 - notebook: "noute-búque";
 - SQL: "ésse-quê-éle";
 - Python: "páiton".
