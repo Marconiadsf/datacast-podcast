@@ -27,7 +27,7 @@ Uma introdução ao Databricks, ao conceito de lakehouse e à arquitetura medalh
 - `assets/cover.png`: capa do podcast;
 - `src/roteiro.md`: roteiro final do episódio;
 - `src/roteiro-fonetico.md`: versão adaptada exclusivamente para síntese de voz;
-- `src/prompts/chatgpt.md`: prompts de título e roteiro;
+- `src/prompts/texto.md`: prompts utilizados para criação do nome e do roteiro;
 - `src/prompts/imagem.md`: prompt utilizado para criar a capa;
 - `src/prompts/narracao.md`: instruções da síntese de voz;
 - `output/podcast.mp3`: episódio final narrado por voz sintética masculina.
